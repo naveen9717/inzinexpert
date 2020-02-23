@@ -9,7 +9,7 @@ import { PartnerComponent } from "./components/partner/partner.component";
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "/home",
+    redirectTo: "home",
     pathMatch: "full"
   },
   {
